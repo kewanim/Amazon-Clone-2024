@@ -1,6 +1,7 @@
 import React from 'react';
 import LowerHeader from "./LowerHeader";
 import classes from './Header.module.css';
+import { Link } from 'react-router-dom';
 import { SlLocationPin } from "react-icons/sl";
 import { BiCart } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
@@ -12,9 +13,9 @@ const Header = () => {
                 <div className={classes.header__container}>
                     {/* logo section */}
                     <div className={classes.logo__container}>
-                        <a href="#">
+                        <Link to="/">
                             <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon logo" />
-                        </a>
+                        </Link>
                         {/* delivery */}
                         <div className={classes.delivery}>
                             <span>
@@ -36,25 +37,25 @@ const Header = () => {
                     </div>
                     {/* right side */}
                     <div className={classes.order__container}>
-                        <a href="" className={classes.language}>
+                        <Link to="" className={classes.language}>
                             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1024px-Flag_of_the_United_States.svg.png" alt="US Flag"/>
 
                             <select name='' id=''>
                                 <option value="">EN</option>
                             </select>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="/auth">
                                 <p>Sign In</p>
                                 <span>Account & Lists</span>
-                        </a>
-                        <a href="">
+                        </Link>
+                        <Link to="/orders">
                             <p>returns</p>
                             <span>& Orders</span>
-                        </a>
-                        <a href="" className={classes.cart}>
+                        </Link>
+                        <Link to="/cart" className={classes.cart}>
                             <BiCart size={35} />
                             <span>0</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
