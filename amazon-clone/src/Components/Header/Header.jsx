@@ -13,7 +13,7 @@ const Header = () => {
     const [{user, basket},dispatch]=useContext(DataContext)
     const totalItem = basket?.reduce((amount,item)=>{
         return item.amount + amount
-    },0)
+    },0);
 
     return (
         <section className={classes.fixed}>
@@ -30,8 +30,8 @@ const Header = () => {
                                 <SlLocationPin />
                             </span>
                             <div>
-                                <p>Delivered to</p>
-                                <span>Ethiopia</span>
+                                <p>Delivered to </p>
+                                <span>US</span>
                             </div>
                         </div>
                     </div>                   
