@@ -6,6 +6,8 @@
     text-decoration: none;
     position: relative;
     /* margin-top: 100px; */
+    margin-right: auto;
+    margin-left: auto;
 }
 
     .card__container:hover .button{
