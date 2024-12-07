@@ -608,3 +608,173 @@ SyntaxError: missing ) after argument list
 [debug] [2024-12-06T05:39:58.128Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
 [debug] [2024-12-06T05:39:58.128Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
 [debug] [2024-12-06T05:39:58.128Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T17:24:05.135Z] ----------------------------------------------------------------------
+[debug] [2024-12-07T17:24:05.137Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start --only functions
+[debug] [2024-12-07T17:24:05.137Z] CLI Version:   13.28.0
+[debug] [2024-12-07T17:24:05.137Z] Platform:      darwin
+[debug] [2024-12-07T17:24:05.137Z] Node Version:  v20.17.0
+[debug] [2024-12-07T17:24:05.137Z] Time:          Sat Dec 07 2024 12:24:05 GMT-0500 (Eastern Standard Time)
+[debug] [2024-12-07T17:24:05.138Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-07T17:24:05.179Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-07T17:24:05.179Z] > authorizing via signed-in user (kewanim40@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[warn] ⚠  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead. {"metadata":{"emulator":{"name":"logging"},"message":"Logging Emulator unable to start on port 4500, starting on 4501 instead."}}
+[debug] [2024-12-07T17:24:06.161Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-07T17:24:06.161Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-12-07T17:24:06.163Z] [hub] writing locator at /var/folders/6_/4g1zg2wn6312s_0ybv936chh0000gn/T/hub-clone-38cff.json
+[debug] [2024-12-07T17:24:06.478Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-07T17:24:06.478Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-07T17:24:06.478Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-07T17:24:06.478Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-12-07T17:24:06.479Z] defaultcredentials: writing to file /Users/kewanimulugeta/.config/firebase/kewanim40_gmail_com_application_default_credentials.json
+[debug] [2024-12-07T17:24:06.480Z] Setting GAC to /Users/kewanimulugeta/.config/firebase/kewanim40_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/kewanimulugeta/.config/firebase/kewanim40_gmail_com_application_default_credentials.json"}}
+[debug] [2024-12-07T17:24:06.481Z] Checked if tokens are valid: true, expires at: 1733593884361
+[debug] [2024-12-07T17:24:06.481Z] Checked if tokens are valid: true, expires at: 1733593884361
+[debug] [2024-12-07T17:24:06.482Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-38cff/adminSdkConfig [none]
+[debug] [2024-12-07T17:24:06.924Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-38cff/adminSdkConfig 200
+[debug] [2024-12-07T17:24:06.924Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-38cff/adminSdkConfig {"projectId":"clone-38cff","storageBucket":"clone-38cff.firebasestorage.app"}
+[info] i  functions: Watching "/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions\" for Cloud Functions..."}}
+[debug] [2024-12-07T17:24:06.944Z] Validating nodejs source
+[debug] [2024-12-07T17:24:07.458Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^17.4.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-12-07T17:24:07.459Z] Building nodejs source
+[debug] [2024-12-07T17:24:07.459Z] Failed to find version of module node: reached end of search path /Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-12-07T17:24:07.461Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-12-07T17:24:07.468Z] Found firebase-functions binary at '/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8164
+
+[debug] [2024-12-07T17:24:07.715Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] ✔  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-38cff/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-38cff/us-central1/api)."}}
+[debug] [2024-12-07T17:24:12.746Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4501
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-12-07T17:25:28.126Z] [work-queue] {"queuedWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T17:25:28.126Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T17:25:28.127Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T17:25:28.126Z"],"workRunningCount":1}
+[debug] [2024-12-07T17:25:28.127Z] Accepted request POST /clone-38cff/us-central1/api/payment/create?total=10995 --> us-central1-api
+[debug] [2024-12-07T17:25:28.128Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-12-07T17:25:28.128Z] [functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-12-07T17:25:28.134Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2024-12-07T17:25:28.135Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2024-12-07T17:25:28.878Z] [runtime-status] [52728] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-12-07T17:25:28.879Z] [runtime-status] [52728] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2024-12-07T17:25:28.879Z] [runtime-status] [52728] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-12-07T17:25:28.880Z] [runtime-status] [52728] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2024-12-07T17:25:29.060Z] [runtime-status] [52728] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-12-07T17:25:29.061Z] [runtime-status] [52728] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js\"}}"}}
+[debug] [2024-12-07T17:25:29.061Z] [runtime-status] [52728] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2024-12-07T17:25:29.063Z] [runtime-status] [52728] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-12-07T17:25:29.064Z] [runtime-status] [52728] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2024-12-07T17:25:29.064Z] [runtime-status] [52728] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-12-07T17:25:29.163Z] [runtime-status] [52728] Functions runtime initialized. {"cwd":"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions","node_version":"20.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Functions runtime initialized. {\"cwd\":\"/Users/kewanimulugeta/Library/Mobile Documents/com~apple~CloudDocs/Kewani/Evangadi/Phase-4/Amazon-Clone-2024/amazon-clone/functions\",\"node_version\":\"20.17.0\"}"}}
+[debug] [2024-12-07T17:25:29.163Z] [runtime-status] [52728] Listening to port: /var/folders/6_/4g1zg2wn6312s_0ybv936chh0000gn/T/fire_emu_f60750ca1b49b259.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [52728] Listening to port: /var/folders/6_/4g1zg2wn6312s_0ybv936chh0000gn/T/fire_emu_f60750ca1b49b259.sock"}}
+[debug] [2024-12-07T17:25:29.252Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE"}}
+[debug] [2024-12-07T17:25:29.252Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-12-07T17:25:29.253Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY"}}
+[debug] [2024-12-07T17:25:29.851Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 598.348708ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 598.348708ms"}}
+[debug] [2024-12-07T17:25:29.852Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE"}}
+[debug] [2024-12-07T17:25:29.853Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-12-07T17:25:29.853Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-12-07T17:25:29.854Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T17:59:04.268Z] [work-queue] {"queuedWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T17:59:04.267Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T17:59:04.269Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T17:59:04.267Z"],"workRunningCount":1}
+[debug] [2024-12-07T17:59:04.270Z] Accepted request POST /clone-38cff/us-central1/api/payment/create?total=10995 --> us-central1-api
+[debug] [2024-12-07T17:59:04.271Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-12-07T17:59:04.271Z] [functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995"}}
+[debug] [2024-12-07T17:59:04.271Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-12-07T17:59:04.272Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY"}}
+[debug] [2024-12-07T17:59:04.849Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 577.81875ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 577.81875ms"}}
+[debug] [2024-12-07T17:59:04.850Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE"}}
+[debug] [2024-12-07T17:59:04.850Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-12-07T17:59:04.851Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-12-07T17:59:04.851Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T17:59:13.748Z] [work-queue] {"queuedWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T17:59:13.748Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T17:59:13.749Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T17:59:13.748Z"],"workRunningCount":1}
+[debug] [2024-12-07T17:59:13.749Z] Accepted request POST /clone-38cff/us-central1/api/payment/create?total=10995 --> us-central1-api
+[debug] [2024-12-07T17:59:13.749Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-12-07T17:59:13.749Z] [functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995"}}
+[debug] [2024-12-07T17:59:13.749Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-12-07T17:59:13.750Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY"}}
+[debug] [2024-12-07T17:59:14.126Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 376.419625ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 376.419625ms"}}
+[debug] [2024-12-07T17:59:14.130Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE"}}
+[debug] [2024-12-07T17:59:14.130Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-12-07T17:59:14.130Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-12-07T17:59:14.130Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T18:24:36.210Z] [work-queue] {"queuedWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T18:24:36.209Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T18:24:36.211Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T18:24:36.209Z"],"workRunningCount":1}
+[debug] [2024-12-07T18:24:36.211Z] Accepted request POST /clone-38cff/us-central1/api/payment/create?total=10995 --> us-central1-api
+[debug] [2024-12-07T18:24:36.212Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-12-07T18:24:36.212Z] [functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=10995, mapping to path=/payment/create?total=10995"}}
+[debug] [2024-12-07T18:24:36.212Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-12-07T18:24:36.212Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY"}}
+[debug] [2024-12-07T18:24:36.754Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 542.075792ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 542.075792ms"}}
+[debug] [2024-12-07T18:24:36.755Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE"}}
+[debug] [2024-12-07T18:24:36.755Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-12-07T18:24:36.755Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-12-07T18:24:36.755Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T18:26:49.571Z] [work-queue] {"queuedWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T18:26:49.571Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-07T18:26:49.571Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-38cff/us-central1/api/payment/create-2024-12-07T18:26:49.571Z"],"workRunningCount":1}
+[debug] [2024-12-07T18:26:49.571Z] Accepted request POST /clone-38cff/us-central1/api/payment/create?total=69500 --> us-central1-api
+[debug] [2024-12-07T18:26:49.572Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-12-07T18:26:49.572Z] [functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=69500, mapping to path=/payment/create?total=69500 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-38cff/us-central1/api/payment/create?total=69500, mapping to path=/payment/create?total=69500"}}
+[debug] [2024-12-07T18:26:49.572Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-12-07T18:26:49.572Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: BUSY"}}
+[debug] [2024-12-07T18:26:50.123Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 551.348166ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 551.348166ms"}}
+[debug] [2024-12-07T18:26:50.125Z] [worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-185791ce-1de3-41db-87c1-b564c130e16a]: IDLE"}}
+[debug] [2024-12-07T18:26:50.125Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-12-07T18:26:50.125Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-12-07T18:26:50.126Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
